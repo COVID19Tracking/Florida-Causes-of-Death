@@ -9,7 +9,7 @@
       </AxisDescriptor>
       <AxisDescriptor AxisName="Series">
         <Dimensions>
-          <Dimension Name="Measures" LevelName="" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None">
+          <Dimension Name="Measures" LevelName="[Measures].[MeasuresLevel]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None">
             <Members>
               <Member Name="Resident Deaths" UniqueName="[Measures].[Resident Deaths]" />
             </Members>
@@ -32,7 +32,12 @@
         <Dimensions>
           <Dimension Name="Death 113 Causes Plus SIDS" LevelName="[Death 113 Causes Plus SIDS].[Death 113 Causes Plus SIDS].[(All)]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None">
             <Members>
-              <Member Name="Symptoms, Signs &amp; Abnormal Findings" UniqueName="[Death 113 Causes Plus SIDS].[Death 113 Causes Plus SIDS].[All].[Symptoms, Signs &amp; Abnormal Findings].[Symptoms, Signs &amp; Abnormal Findings]" />
+              <Member Name="Symptoms, Signs &amp; Abnormal Findings" UniqueName="[Death 113 Causes Plus SIDS].[Death 113 Causes Plus SIDS].[All].[Symptoms, Signs &amp; Abnormal Findings]" />
+            </Members>
+          </Dimension>
+          <Dimension Name="Ethnicity - Counts and Rate" LevelName="[Ethnicity - Counts and Rate].[Ethnicity - Counts and Rates].[(All)]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None">
+            <Members>
+              <Member Name="All" UniqueName="[Ethnicity - Counts and Rate].[Ethnicity - Counts and Rates].[All]" />
             </Members>
           </Dimension>
         </Dimensions>
