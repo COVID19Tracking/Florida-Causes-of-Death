@@ -16,15 +16,12 @@
           </Dimension>
           <Dimension Name="Year" LevelName="[Year].[Year].[Year]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None">
             <Members>
-              <Member Name="All" UniqueName="[Year].[Year].[All]" />
               <Member Name="2018" UniqueName="[Year].[Year].[All].[2018]" />
               <Member Name="2019" UniqueName="[Year].[Year].[All].[2019]" />
               <Member Name="2020" UniqueName="[Year].[Year].[All].[2020]" />
             </Members>
-            <Parents>
-              <Member UniqueName="[Year].[Year].[All]" />
-            </Parents>
           </Dimension>
+          <Dimension Name="Residence State" LevelName="[Residence State].[Residence State].[Residence State]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None" />
           <Dimension Name="Ethnicity - Counts and Rate" LevelName="[Ethnicity - Counts and Rate].[Ethnicity - Counts and Rates].[Ethnicity]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None" />
         </Dimensions>
       </AxisDescriptor>
@@ -32,14 +29,14 @@
         <Dimensions>
           <Dimension Name="Death 113 Causes Plus SIDS" LevelName="[Death 113 Causes Plus SIDS].[Death 113 Causes Plus SIDS].[(All)]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None">
             <Members>
-              <Member Name="Other &amp; Unspecified Infectious/Parasitic Disease &amp; Sequelae" UniqueName="[Death 113 Causes Plus SIDS].[Death 113 Causes Plus SIDS].[All].[Infectious Diseases (A00-B99)].[Infectious Diseases (A00-B99)].[Other &amp; Unspecified Infectious/Parasitic Disease &amp; Sequelae]" />
+              <Member Name="Other and unspecified infectious and parasitic diseases and their sequelae" UniqueName="[Death 113 Causes Plus SIDS].[Death 113 Causes Plus SIDS].[All].[Infectious Diseases (A00-B99)].[Infectious Diseases (A00-B99)].[Other and unspecified infectious and parasitic diseases and their sequelae]" />
             </Members>
           </Dimension>
         </Dimensions>
       </AxisDescriptor>
     </AxisDescriptors>
     <ControlState>
-      <StateBag Name="olapchart"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAE1TeXN0ZW0uV2ViLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYQUBAAAAElN5c3RlbS5XZWIuVUkuUGFpcgIAAAAFRmlyc3QGU2Vjb25kAgICAAAACQMAAAAJBAAAAA8DAAAAHgIAAAJEQ0JGMzAwAAAAAAAAAADNrs1cAAAAAACYjUAGWAAAAAAAgHZAyIoHRGlhbW9uZBWuFVZhbHVlIGlzIHVuYXZhaWxhYmxlLtgFBQAAAEIgAAD//3rlAYZGBkR1bmRhc6YPCjcuMC4wLjE4MDXBdlCPNNQFU29saWTpEfhyiOXAwMD/AADXwylEZWNyZWFzZUZvbnQsIExhYmVsc0FuZ2xlU3RlcDkwLCBXb3JkV3JhcCi/8ngFIywjIyMAAPYlDVZhcmlhYmxlQ291bnQAAOgRmF1OWwAAAIxOiOX///8ApXAAAABopwcAAADXwylEZWNyZWFzZUZvbnQsIExhYmVsc0FuZ2xlU3RlcDkwLCBXb3JkV3JhcOuVRSrw8PD/AAAAALhN18MpRGVjcmVhc2VGb250LCBMYWJlbHNBbmdsZVN0ZXA5MCwgV29yZFdyYXAAAJlN18MpRGVjcmVhc2VGb250LCBMYWJlbHNBbmdsZVN0ZXA5MCwgV29yZFdyYXAAAKrb09PT/6pUB0RlZmF1bHQAAAAAxXNwh6pUB0RlZmF1bHQAAAAAggmP+LltAKpUCU1haW5UaXRsZV4sGk1pY3Jvc29mdCBTYW5zIFNlcmlmLCAxMnB0AACP+LltAKpUBk5vRGF0YeRtB0RlZmF1bHRg0BFObyBEYXRhIEF2YWlsYWJsZQAAAAD4w9zc3P9u6AVTb2xpZAAAAAAAAAEEAAAAAQAAAAkFAAAACQYAAAARBQAAAAAAAAAPBgAAABwAAAACAQAAAAdEZWZhdWx0AAAAAAAAAAAAAAAAAAAAAAs=]]></StateBag>
+      <StateBag Name="olapchart"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAE1TeXN0ZW0uV2ViLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYQUBAAAAElN5c3RlbS5XZWIuVUkuUGFpcgIAAAAFRmlyc3QGU2Vjb25kAgICAAAACQMAAAAJBAAAAA8DAAAAHgIAAAJEQ0JGMzAwAAAAAAAAAADNrs1cAAAAAACYjUAGWAAAAAAAgHZAyIoHRGlhbW9uZBWuFVZhbHVlIGlzIHVuYXZhaWxhYmxlLtgFBQAAAEIgAAD//3rlAYZGBkR1bmRhc6YPCjcuMC4wLjE4MDXBdlCP6RH4cojlwMDA/wAA18MpRGVjcmVhc2VGb250LCBMYWJlbHNBbmdsZVN0ZXA5MCwgV29yZFdyYXAov/J4BSMsIyMjAAD2JQ1WYXJpYWJsZUNvdW50AADoEZhdTlsAAACMTojl////AKVwAAAAaKcHAAAA18MpRGVjcmVhc2VGb250LCBMYWJlbHNBbmdsZVN0ZXA5MCwgV29yZFdyYXDrlUUq8PDw/wAAAAC4TdfDKURlY3JlYXNlRm9udCwgTGFiZWxzQW5nbGVTdGVwOTAsIFdvcmRXcmFwAACZTdfDKURlY3JlYXNlRm9udCwgTGFiZWxzQW5nbGVTdGVwOTAsIFdvcmRXcmFwAACq29PT0/801AVTb2xpZKpUB0RlZmF1bHQAAAAAxXNwh6pUB0RlZmF1bHQAAAAAggmP+LltAKpUCU1haW5UaXRsZV4sGk1pY3Jvc29mdCBTYW5zIFNlcmlmLCAxMnB0AACP+LltAKpUBk5vRGF0YeRtB0RlZmF1bHRg0BFObyBEYXRhIEF2YWlsYWJsZQAAAAD4w9zc3P9u6AVTb2xpZAAAAAAAAAEEAAAAAQAAAAkFAAAACQYAAAARBQAAAAAAAAAPBgAAABwAAAACAQAAAAdEZWZhdWx0AAAAAAAAAAAAAAAAAAAAAAs=]]></StateBag>
       <StateBag Name="ctl00$contentplaceholder1$olapgddeaths"><![CDATA[<?xml version="1.0"?><OlapGrid ForeColor="" BackColor="" BorderColor="#DCDCDC" BorderWidth="1px" BorderStyle="Solid" InterlacedRows="True" Visible="True" ID="olapgdDeaths" EnableMemberDrillDown="True" Orientation="Vertical" EmptyCellValue="0" TitleText="#MEASURES #BY #DIMENSIONS &lt;br/&gt;#SLICER_DIMENSIONS" ctm="True" SubTotals="True" EmptyRows="&lt;Drop rows here&gt;" EmptyColumns="&lt;Drop columns here&gt;" ErrorText="Value is unavailable." TotalsCaption="Total" ErrorBackColor="#FF0000"><ColumnHeader /><Regular /><Interlaced /><RowHeader /><Total><font value="False;False;Arial;False;8pt;False;False" /></Total><Title backColor="#FFFFFF" foreColor="#000000"><pad left="1" right="1" top="8" bottom="10" /><font value="True;False;Arial;False;10pt;False;False" /></Title></OlapGrid>]]></StateBag>
       <StateBag Name="axbdeathsrows_pagerseries"><![CDATA[0;5;0;0;False;;;0;VG90YWwmbmJzcDtQYWdlczo=]]></StateBag>
     </ControlState>

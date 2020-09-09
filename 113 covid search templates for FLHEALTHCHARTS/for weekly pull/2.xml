@@ -4,14 +4,14 @@
     <AxisDescriptors>
       <AxisDescriptor AxisName="Categorical">
         <Dimensions>
-          <Dimension Name="Residence County" LevelName="[Residence County].[Residence County].[Residence County Name]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None" />
+          <Dimension Name="Occurrence County" LevelName="[Occurrence County].[Recorded County].[Occurrence County Name]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None" />
         </Dimensions>
       </AxisDescriptor>
       <AxisDescriptor AxisName="Series">
         <Dimensions>
           <Dimension Name="Measures" LevelName="" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None">
             <Members>
-              <Member Name="Resident Deaths" UniqueName="[Measures].[Resident Deaths]" />
+              <Member Name="Recorded Deaths" UniqueName="[Measures].[Recorded Deaths]" />
             </Members>
           </Dimension>
           <Dimension Name="Year" LevelName="[Year].[Year].[Year]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None">
@@ -25,14 +25,15 @@
               <Member UniqueName="[Year].[Year].[All]" />
             </Parents>
           </Dimension>
-          <Dimension Name="Death and Pop Age Groups" LevelName="[Death and Pop Age Groups].[Age Group - use for Death-Pop].[Agegroup2]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None" />
+          <Dimension Name="Sex" LevelName="[Sex].[Sex].[Sex]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None" />
+          <Dimension Name="Detailed Race - Counts Only" LevelName="[Detailed Race - Counts Only].[Detailed Race].[Race Group1]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None" />
         </Dimensions>
       </AxisDescriptor>
       <AxisDescriptor AxisName="Slicer">
         <Dimensions>
           <Dimension Name="Death 113 Causes Plus SIDS" LevelName="[Death 113 Causes Plus SIDS].[Death 113 Causes Plus SIDS].[(All)]" NamedSetName="" ShowAllParentLevels="False" MemberSortOrder="None">
             <Members>
-              <Member Name="Other and unspecified infectious and parasitic diseases and their sequelae" UniqueName="[Death 113 Causes Plus SIDS].[Death 113 Causes Plus SIDS].[All].[Infectious Diseases (A00-B99)].[Infectious Diseases (A00-B99)].[Other and unspecified infectious and parasitic diseases and their sequelae]" />
+              <Member Name="Symptoms, Signs &amp; Abnormal Findings" UniqueName="[Death 113 Causes Plus SIDS].[Death 113 Causes Plus SIDS].[All].[Symptoms, Signs &amp; Abnormal Findings].[Symptoms, Signs &amp; Abnormal Findings]" />
             </Members>
           </Dimension>
         </Dimensions>
