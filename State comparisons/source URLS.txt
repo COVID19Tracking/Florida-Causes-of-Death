@@ -1,5 +1,0 @@
-State,Dates Available,Data quality,Ease of Use,URL
-Arkansas,1990-2019,full,Easy,https://www.healthy.arkansas.gov/programs-services/topics/vital-statistic
-Colorado,-2020,full,Easy,by Email
-Florida,1970-2020,full,Easy,http://www.flhealthcharts.com/charts/default.aspx
-Ohio,2007,full,Easy,http://publicapps.odh.ohio.gov/EDW/DataBrowser/Browse/Mortality
