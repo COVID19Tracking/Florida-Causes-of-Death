@@ -11,5 +11,16 @@
  
  113 symptoms signs abnormal: Resident deaths that are ill-defined or have an unknown cause
  
+ Data notes:
+ 
+ August, 2020
+ There is a gap in data in August because the Florida Health CHARTS system was taken offline for renovation.
+ For 2 months afterwards, data slicing for race, ethnicity, and age was halted due to the unusuability of the system.
+ It has now been resolved and data is collecting as before.
+ 
+ Jan 10, 2021
+ Provisional 2021 data is now displayed.
+ 2020 data is still provisional.
+ 
  
  
