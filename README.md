@@ -1,5 +1,5 @@
 # Florida Causes of Death
- In alignment with CTP's recent cessation of operations, I will be collecting this data on a BI-WEEKLY basis starting March 1st.
+ <b>In alignment with CTP's recent cessation of operations, I will be collecting this data on a BI-WEEKLY basis starting March 1st.</b>
  
  Cause of death files from http://www.flhealthcharts.com/FLQUERY_New/Death/Count
  
