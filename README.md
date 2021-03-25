@@ -1,8 +1,9 @@
 # Florida Causes of Death
+ <b>In alignment with CTP's recent cessation of operations, I will be collecting this data on a BI-WEEKLY basis starting March 1st.</b>
+ 
  Cause of death files from http://www.flhealthcharts.com/FLQUERY_New/Death/Count
  
  These are the only currently collected data items:
- 
  
  
  113 All causes: contains historical data through this week of deaths by each 113 cause by various demographic metrics
