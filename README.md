@@ -3,23 +3,25 @@ This repository contains Florida's vital statistics data on a weekly basis, coll
 
 ## Deaths by cause categories
 
-[113 All causes](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20All%20causes) | all deaths for each of the WHO ICD 113 cause of death categories with subtotals for each bucket from 1970-2021.
+[113 All causes](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20All%20causes) | Totals for each WHO ICD 113 cause of death category with subtotals from 1970-2021.
 -------------- | ---------------------------------------------------------------------------------------------------------------
- race | White, Black, Other, Unknown
- ethnicity | Hispanic, Non-Hispanic, Unknown
+[ethnicity](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20All%20causes/ethnicity) | Hispanic, Non-Hispanic, Unknown
+[race](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20All%20causes/race) | White, Black, Other, Unknown
+[sex](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20All%20causes/sex) | Male, Female, Unknown
 	
-[113 other and unspecified COVID](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20other%20and%20unspecified_COVID) | Florida mixes COVID deaths in the "unspecified parasitic infection and their sequelae" category. Sorted by year and county.
+[113 other and unspecified COVID](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20other%20and%20unspecified_COVID) | Florida mixes COVID deaths in the "unspecified parasitic infection and their sequelae" category.
 ------------------------------- | ------------------------------------------------------------------------------------------------
 [race](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20other%20and%20unspecified_COVID/Sex%20and_or%20Race) | White, Black, Other, Unknown
 [ethnicity](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20other%20and%20unspecified_COVID/Ethnicity) | Hispanic, Non-Hispanic, Unknown
 [age](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20other%20and%20unspecified_COVID/Age) | 5-year age grouping
 
-[113 symptoms signs abnormal](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal) | R00-R99 category from 2010-2021. I began collecting this separately after I noticed the totals far exceeded prior years. Sorted by year and county.
+[113 symptoms signs abnormal](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal) | R00-R99 category from 2010-2021. I began collecting this separately after I noticed the totals far exceeded prior years.
 --------------------------- | ------------------------------------------------------------------------------------------------------------------------
-race | White, Black, Other, Unknown
-ethnicity | Hispanic, Non-Hispanic, Unknown
-age | 5-year age grouping
-sex | Male, Female, Unknown
+[age](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal/age) | 5-year age grouping
+[ethnicity](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal/ethnicity) | Hispanic, Non-Hispanic, Unknown
+[race](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal/race) | White, Black, Other, Unknown
+[sex](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal/sex) | Male, Female, Unknown
+[totals](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal/totals) | County totals
 
 ## Medical Examiner data
 [Medical Examiners Report](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/Medical%20Examiners%20Report) | Medical Examiner commissioner's report from the Florida Department of Law Enforcement.
@@ -39,7 +41,7 @@ sex | Male, Female, Unknown
 [Race and ethnicity coding](https://github.com/COVID19Tracking/Florida-Causes-of-Death/blob/master/Data%20definitions/Race%20and%20ethnicity%20coding.docx) | FDOH statement on race and ethnicity coding
 
 ## Data notes
-- August, 2020: There is a gap in data in August because the Florida Health CHARTS system was taken offline for renovation. For 2 months afterwards, data slicing for race, ethnicity, and age was halted due to the unusuability of the system. It has now been resolved and data is collecting as before.
+- August, 2020: There is a gap in data in August because the Florida Health CHARTS system was taken offline for renovation. For 2 months afterwards, data slicing for race, ethnicity, and age was halted in some categories due to the unusuability of the system. It has now been resolved and data is collecting as before.
  
  - Jan 10, 2021 Provisional 2021 data is now displayed. 2020 data is still provisional.
  
