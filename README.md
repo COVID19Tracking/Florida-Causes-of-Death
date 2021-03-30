@@ -15,7 +15,7 @@ This repository contains Florida's vital statistics data on a weekly basis, coll
 [ethnicity](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20other%20and%20unspecified_COVID/Ethnicity) | Hispanic, Non-Hispanic, Unknown
 [age](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20other%20and%20unspecified_COVID/Age) | 5-year age grouping
 
-[113 symptoms signs abnormal](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal) | R00-R99 category from 2010-2021. I began collecting this separately after I noticed the totals far exceeded prior years.
+[113 symptoms signs abnormal](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal) | R00-R99 category from 2010-2021.
 --------------------------- | ------------------------------------------------------------------------------------------------------------------------
 [age](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal/age) | 5-year age grouping
 [ethnicity](https://github.com/COVID19Tracking/Florida-Causes-of-Death/tree/master/113%20symptoms%20signs%20abnormal/ethnicity) | Hispanic, Non-Hispanic, Unknown
