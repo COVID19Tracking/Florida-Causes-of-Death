@@ -1,3 +1,7 @@
+**As of March 7, 2021 we are [no longer collecting new data](https://covidtracking.com/analysis-updates/giving-thanks-and-looking-ahead-our-data-collection-work-is-done). [Learn about available federal data](https://covidtracking.com/analysis-updates/federal-covid-data-101-how-to-find-data).**
+
+---
+
 # Florida Causes of Death
 This repository contains Florida's vital statistics data on a weekly basis, collected since June here: https://github.com/COVID19Tracking/Florida-Causes-of-Death. I pull my data weekly from Florida's vital statistics website, www.FlHealthCharts.com. This repository contains data for three different categories spanning multiple years and stratified by region and demographics.
 
